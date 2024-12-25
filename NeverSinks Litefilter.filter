@@ -464,11 +464,14 @@ SetFontSize 35
 # Hide Rules (only high level), super light edition
 #--------------------------
 
-Hide
+Show
 Quality = 0
-AreaLevel > 70
+AreaLevel > 50
 Rarity <= Magic
+DropLevel < 51
 Class "Flasks"
+SetBackgroundColor 0 0 0 125
+SetFontSize 20
 
 Hide
 AreaLevel >= 78
