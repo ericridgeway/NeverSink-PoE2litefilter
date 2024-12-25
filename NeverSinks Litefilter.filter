@@ -519,7 +519,7 @@ Show
 BaseType == "Advanced Martyr Crown"
 AreaLevel <= 65
 SetBackgroundColor 0 0 0 125
-SetFontSize 25
+SetFontSize 20
 
 
 
@@ -531,6 +531,11 @@ Hide
 Rarity <= Magic
 Class "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Wands" "Sceptres"
 AreaLevel <= 65
+
+
+
+
+
 
 
 
