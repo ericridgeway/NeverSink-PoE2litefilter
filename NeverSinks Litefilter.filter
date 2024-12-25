@@ -507,13 +507,32 @@ Rarity <= Normal
 DropLevel < 50
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
 
+
+
+
+
+
+#--------------------------
+# Eric's extra hides
+#--------------------------
+Show
+BaseType == "Advanced Martyr Crown"
+AreaLevel <= 65
+SetBackgroundColor 0 0 0 125
+SetFontSize 25
+
+
+
+
 #--------------------------
 # Eric's copy of his optional rules, with bases I want removed, per his instructions
 #--------------------------
 Hide
 Rarity <= Magic
 Class "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Wands" "Sceptres"
-AreaLevel >= 50
+AreaLevel <= 65
+
+
 
 
 
