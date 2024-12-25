@@ -70,10 +70,18 @@ SetBorderColor 255 255 255
 PlayEffect Orange Temp
 
 Show
+StackSize >= 100
 BaseType == "Gold"
 SetTextColor 180 180 180
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 180
+
+Show
+BaseType == "Gold"
+SetTextColor 180 180 180
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 180
+SetFontSize 25
 
 #--------------------------
 # Uncut Gems
@@ -298,14 +306,15 @@ SetFontSize 35
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Regal Shard" "Chance Shard"
 SetTextColor 220 190 132
 MinimapIcon 2 Grey Circle
 SetFontSize 35
 
 Show
 Class "Currency"
-BaseType "Scroll of Wisdom" "Shard"
+BaseType "Scroll of Wisdom" "Shard" "Orb of Augmentation" "Orb of Transmutation"
+SetFontSize 20
 
 # Unknown currency
 Show
