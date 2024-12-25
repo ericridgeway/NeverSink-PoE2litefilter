@@ -140,7 +140,7 @@ SetFontSize 40
 #--------------------------
 
 # Special A Tier - League specific socketables and jewels
-Show 
+Show
 BaseType "Soul Core" "Timeless"
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
@@ -150,7 +150,7 @@ PlayAlertSound 2 300
 PlayEffect Cyan
 
 # Special Highlight - Breach Rings
-Show 
+Show
 Rarity Rare
 BaseType == "Breach Ring"
 SetTextColor 0 240 190
@@ -160,7 +160,7 @@ MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 PlayAlertSound 2 300
 
-Show 
+Show
 Rarity <= Magic
 BaseType == "Breach Ring"
 SetTextColor 0 240 190
@@ -169,7 +169,7 @@ MinimapIcon 2 Cyan Diamond
 PlayEffect Cyan Temp
 
 # Special A Tier - Sanctum Relics
-Show 
+Show
 Class "Relic"
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
@@ -190,7 +190,7 @@ PlayEffect Cyan
 PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
-Show 
+Show
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
 PlayEffect Cyan Temp
@@ -256,7 +256,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
