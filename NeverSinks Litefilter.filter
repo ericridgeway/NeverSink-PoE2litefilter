@@ -534,7 +534,7 @@ Class "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Qua
 AreaLevel <= 65
 
 Show
-BaseType == "Advanced Martyr Crown" "Advanced Shaman Mantle" "Advanced Keth Raiment" "Advanced Scout's Vest" "Advanced Ironclad Vestments" "Chain Tiara" "Advanced Horned Crown" "Advanced Votive Raiment" "Advanced Veiled Mask" "Advanced Feathered Sandals"
+BaseType == "Advanced Martyr Crown" "Advanced Shaman Mantle" "Advanced Keth Raiment" "Advanced Scout's Vest" "Advanced Ironclad Vestments" "Chain Tiara" "Advanced Horned Crown" "Advanced Votive Raiment" "Advanced Veiled Mask" "Advanced Feathered Sandals" "Advanced Heavy Crown"
 AreaLevel <= 65
 SetBackgroundColor 0 0 0 125
 SetFontSize 20
